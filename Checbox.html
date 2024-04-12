@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Level-3</title>
+</head>
+<body>
+     <form action="/server">
+            <h1> Checkbox</h1>
+            <h2> Choose your Subjects</h2>
+            <input type="checkbox" id="maths" name="sub" value="maths">
+            <label for="maaths"> Mathematics</label>
+            <input type="checkbox" id="sci" name="sub" value="sci">
+            <label for="sci"> science</label>
+            <input type="checkbox" id="eng name="sub" value="eng">
+            <label for="eng">English</label>
+            <input type="checkbox" id="chem" name="sub" value="chem">
+            <lable for="chem"> Chemistry</lable>
+            <div>
+        <h1> Radio Button</h1>
+        <h2>Choose your favorite color:</h2>
+            <input type="radio" id="red" name="color" value="red">
+            <label for="red">Red</label>
+            <input type="radio" id="blue" name="color" value="blue">
+            <label for="blue">Blue</label>
+
+            <input type="radio" id="green" name="color" value="green">
+            <label for="green">Green</label>
+            <input type="radio" id="yellow" name="color" value="yellow">
+            <label for="yellow">Yellow</label>
+        </div>
+        <div>
+            <h1>Choose your favorite fruits</h1>
+            <input type="radio" id="apple" name="fruits" value="apple">
+            <label for="apple"> Its Apple</label>
+            <input type="radio" id="mango" name="fruits" value="mango">
+            <label for="mango">Its Mango</label>
+            <input type="checkbox" id="orange" name="fruits" value="orange">
+            <label for="orange"> Its Orange</label>
+        </div>
+        <div>
+            <label for="pet-select">Choose a pet:</label>
+            <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+            </select>
+        </div>
+        <div>
+            Choose Your Profession
+            <select id="profession" name="profession">
+                <option>select your profession</option>
+                <option value="developer">Deve</option>
+                <option value="student">Stud</option>
+            </select>
+        </div>
+        <div> 
+            <h1>Range</h1>
+            <label for="vol"> Select your volume level</label>
+            <input type="range" name="vol" id="vol" min="0" max="100" step="10" value="70"/>
+            <label for="hei">Select your height level</label>
+            <input type="range" name="hei" id="hei" min="1" max="10" value="2">
+        </div>
+        <div>
+            <h1>Text Area</h1>
+            <label for="feedback"> Please give your valuable feedback :</label>
+            <textarea id="feedback" name="feedback" placeholder="Write  your feedback"></textarea>
+        </div>
+        <label for="story">Tell us your story:</label>
+            <textarea id="story" name="story" rows="5" cols="33">
+            It was a dark and stormy night...
+            </textarea>
+         <button>submit</button>
+    </form>
+</body>
+</html>

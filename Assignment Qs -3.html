@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Question -3</title>
+</head>
+<body>
+    <h2> Question 1 Solve</h2>
+    <table border="reddish">
+      <caption>Student Information</caption>
+      <tr>
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="3">Address</th>
+      </tr>
+      <tr>
+        <th>City</th>
+        <th>House</th>
+        <th>Student Name</th>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>Delhi</td>
+        <td>1</td>
+        <td>Niesh</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>Mumbai</td>
+        <td>2</td>
+        <td>Rahul</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>Kolkata</td>
+        <td>3</td>
+        <td>Akash</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>Pune</td>
+        <td>4</td>
+        <td>Tejas</td>
+      </tr>
+    </table>
+        <hr>
+            <h1>Question 2 Solve</h1>
+          <form action="/server">
+          <div>
+            <label for="Name">Name :</label>
+              <input type="text" id="Name" name="Name">
+          </div><br>
+          <div>
+              <label for="Sex">Sex :</label>
+              <input type="radio" id="Male" name=sex value="Sex">
+              <label for="Male">Male</label>
+              <input type="radio" id="Female" name="sex" value="Sex">
+              <label for="Female">Female</label>
+          </div><br>
+          <div>
+        <label for="Country">Country :</label>
+          <select id="Country" name="Country">
+            <option value="1">India</option>
+            <option value="2">Nepal</option>
+            <option value="3">USA</option>
+            <option value="4">Canada</option>
+            <option value="5">Japan</option>
+            <option selected>Select an Option</option>
+          </select>
+          </div><br /> <br />
+          <div>
+            <label for="Message">Message:</label>
+            <textarea name="Message" id="Message"  cols="30" rows="4"> Write Your Message</textarea>
+          </div><br>
+          <div>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe ?</label><br>
+            <button>Submit</button>
+          </div>
+  </form>
+  <h3>Feedback Form</h3>
+  <form action="/server">
+         <div>
+          <label for="name">Name :</label>
+         <input type="text" id="name" name="name" placeholder="Write your name"><br>
+         <label for="email">Email :</label>
+         <input type="text" id="email" name="email" placeholder="Write your email">
+          </div><br>
+          <div>
+          <label for="like">Message :</label>
+         <textarea name="like" id="like" cols="30" rows="4">Write your message for teammade </textarea>
+         </div><br>
+         <div>
+          <div>
+          <label for="">Rate us our of 5</label> <br>
+          <input type="radio" name="rating" id="one" value="one">
+          <label for="one">1</label><br>
+          <input type="radio" name="rating" id="two" value="two">
+          <label for="two">2</label><br>
+          <input type="radio" name="rating" id="three" value="three">
+          <label for="three">3</label><br>
+          <input type="radio" name="rating" id="four" value="four">
+          <label for="four">4</label><br>
+          <input type="radio" id="five" value="five" name="rating">
+          <label for="five">5</label>
+        </div>
+      <div>
+        <button>Send your message</button>
+         </div>
+  </form>
+  </body>
+  </html>
